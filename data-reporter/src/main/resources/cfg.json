@@ -1,0 +1,54 @@
+{
+  "workbooks": [
+    {
+      "alias": "0.xlsx",
+      "path": "/Users/zhisenzheng/Downloads/0.xlsx"
+    },
+    {
+      "alias": "1.xls",
+      "path": "/Users/zhisenzheng/Downloads/1.xls"
+    },
+    {
+      "alias": "2.xlsx",
+      "path": "/Users/zhisenzheng/Downloads/2.xlsx"
+    }
+  ],
+  "cpRules": [
+    {
+      "sourceWorkbook": "0.xlsx",
+      "sourceSheet": "Sheet1",
+      "targetWorkbook": "1.xls",
+      "targetSheet": "Sheet1",
+      "startCell": "A1",
+      "endCell": "B2"
+    },
+    {
+      "sourceWorkbook": "0.xlsx",
+      "sourceSheet": "Sheet1",
+      "targetWorkbook": "2.xlsx",
+      "targetSheet": "Sheet1",
+      "startCell": "A1",
+      "endCell": "B3"
+    }
+  ],
+  "dateRules": [
+    {
+      "workbook": "2.xlsx",
+      "sheet": "Sheet1",
+      "cells": ["D1"],
+      "date": "yesterday"
+    }
+  ],
+  "sortRules": [
+    {
+      "workbook": "0.xlsx",
+      "sheet": "Sheet1",
+      "startRow": 1,
+      "endRow": 10,
+      "colCount": 10,
+      "keyCol": "B",
+      "order": "desc"
+    }
+  ]
+
+}
